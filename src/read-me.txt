@@ -1,0 +1,5 @@
+Read-me
+
+pts_in_alvar_frame is a (3,15) numpy array
+pts_in_world_frame is a (3, 15) numpy array
+real_sense_intrinsics is a (3, 3) numpy array
