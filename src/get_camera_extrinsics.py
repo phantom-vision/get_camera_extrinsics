@@ -7,6 +7,9 @@ import pdb
 import os, sys
 
 def get_image_points(K,pts_in_alvar_frame):
+    '''
+    pts in alvar_frame are location of the alvar tag in the camera frame
+    '''
     epsilon = 0.0000001
     for i in range(pts_in_alvar_frame.shape[1]):
         if(i==0):
